@@ -1,0 +1,46 @@
+@media (max-width: 375px) {
+  .main-title {
+    width: 100vw;
+    min-width: 375px;
+  }
+  .main-title div {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .main-title h1 {
+    font-size: 25px;
+  }
+  .main-title h2 {
+    font-size: 26px;
+  }
+
+  .card-feature {
+    min-width: 375px;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .card-container .card {
+    width: 100%;
+  }
+  .card-supervior {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .card-team-builder {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .card-karma {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .card-calculator {
+    grid-column: 1;
+    grid-row: 4;
+  }
+}
